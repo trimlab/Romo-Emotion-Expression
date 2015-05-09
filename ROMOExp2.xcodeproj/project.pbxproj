@@ -7,32 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E80CE06B18B2F2710088BA78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06A18B2F2710088BA78 /* Foundation.framework */; };
-		E80CE06D18B2F2720088BA78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06C18B2F2720088BA78 /* CoreGraphics.framework */; };
-		E80CE06F18B2F2720088BA78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06E18B2F2720088BA78 /* UIKit.framework */; };
-		E80CE07518B2F2720088BA78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E80CE07318B2F2720088BA78 /* InfoPlist.strings */; };
-		E80CE07718B2F2720088BA78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CE07618B2F2720088BA78 /* main.m */; };
-		E80CE07B18B2F2720088BA78 /* RZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CE07A18B2F2720088BA78 /* RZAppDelegate.m */; };
-		E80CE07D18B2F2720088BA78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80CE07C18B2F2720088BA78 /* Images.xcassets */; };
-		E80CE08418B2F2720088BA78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE08318B2F2720088BA78 /* XCTest.framework */; };
-		E80CE08518B2F2720088BA78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06A18B2F2710088BA78 /* Foundation.framework */; };
-		E80CE08618B2F2720088BA78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06E18B2F2720088BA78 /* UIKit.framework */; };
-		E80CE08E18B2F2720088BA78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E80CE08C18B2F2720088BA78 /* InfoPlist.strings */; };
-		E80CE09018B2F2720088BA78 /* ROMOExp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CE08F18B2F2720088BA78 /* ROMOExp2Tests.m */; };
+		E82B815F18C280E10022772B /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80CE0A118B3288D0088BA78 /* main.storyboard */; };
+		E82B816018C281E60022772B /* ROMOExp2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E84668C618B98523000ECD04 /* ROMOExp2-Info.plist */; };
+		E84668C118B98522000ECD04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06A18B2F2710088BA78 /* Foundation.framework */; };
+		E84668C218B98522000ECD04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06C18B2F2720088BA78 /* CoreGraphics.framework */; };
+		E84668C318B98522000ECD04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06E18B2F2720088BA78 /* UIKit.framework */; };
+		E84668C918B98523000ECD04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E84668C718B98523000ECD04 /* InfoPlist.strings */; };
+		E84668CB18B98523000ECD04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E84668CA18B98523000ECD04 /* main.m */; };
+		E84668CF18B98523000ECD04 /* RZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E84668CE18B98523000ECD04 /* RZAppDelegate.m */; };
+		E84668D218B98523000ECD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84668D018B98523000ECD04 /* Main.storyboard */; };
+		E84668D518B98523000ECD04 /* RZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84668D418B98523000ECD04 /* RZViewController.m */; };
+		E84668D718B98523000ECD04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84668D618B98523000ECD04 /* Images.xcassets */; };
+		E84668DD18B98523000ECD04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE08318B2F2720088BA78 /* XCTest.framework */; };
+		E84668DE18B98523000ECD04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06A18B2F2710088BA78 /* Foundation.framework */; };
+		E84668DF18B98523000ECD04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE06E18B2F2720088BA78 /* UIKit.framework */; };
+		E84668E718B98523000ECD04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E84668E518B98523000ECD04 /* InfoPlist.strings */; };
+		E84668E918B98523000ECD04 /* ROMOExp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E84668E818B98523000ECD04 /* ROMOExp2Tests.m */; };
+		E86287ED18B98772001D210B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE0A718B3EF520088BA78 /* AVFoundation.framework */; };
+		E86287EE18B98791001D210B /* RMCharacter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CE0A318B3EF2A0088BA78 /* RMCharacter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E80CE08718B2F2720088BA78 /* PBXContainerItemProxy */ = {
+		E84668E018B98523000ECD04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E80CE05F18B2F2710088BA78 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E80CE06618B2F2710088BA78;
+			remoteGlobalIDString = E84668BF18B98522000ECD04;
 			remoteInfo = ROMOExp2;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E80CE06718B2F2710088BA78 /* ROMOExp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROMOExp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80CE06A18B2F2710088BA78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E80CE06C18B2F2720088BA78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E80CE06E18B2F2720088BA78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -43,31 +48,120 @@
 		E80CE07918B2F2720088BA78 /* RZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZAppDelegate.h; sourceTree = "<group>"; };
 		E80CE07A18B2F2720088BA78 /* RZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZAppDelegate.m; sourceTree = "<group>"; };
 		E80CE07C18B2F2720088BA78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E80CE08218B2F2720088BA78 /* ROMOExp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROMOExp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80CE08318B2F2720088BA78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E80CE08B18B2F2720088BA78 /* ROMOExp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ROMOExp2Tests-Info.plist"; sourceTree = "<group>"; };
 		E80CE08D18B2F2720088BA78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E80CE08F18B2F2720088BA78 /* ROMOExp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROMOExp2Tests.m; sourceTree = "<group>"; };
+		E80CE09B18B2F5550088BA78 /* RZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZMainViewController.h; sourceTree = "<group>"; };
+		E80CE09C18B2F5550088BA78 /* RZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZMainViewController.m; sourceTree = "<group>"; };
+		E80CE09E18B2F9440088BA78 /* RZROMOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZROMOViewController.h; sourceTree = "<group>"; };
+		E80CE09F18B2F9440088BA78 /* RZROMOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZROMOViewController.m; sourceTree = "<group>"; };
+		E80CE0A118B3288D0088BA78 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		E80CE0A318B3EF2A0088BA78 /* RMCharacter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMCharacter.framework; path = ../../../robotics/ROMO/RomotiveSDK/frameworks/RMCharacter.framework; sourceTree = "<group>"; };
+		E80CE0A718B3EF520088BA78 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E80CE0A918B3EF590088BA78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E80CE0AC18B3F0630088BA78 /* YMCAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YMCAudioPlayer.h; path = ../../../../robotics/ROMO/RomotiveSDK/examples/HelloRMCharacter/HelloRMCharacter/YMCAudioPlayer.h; sourceTree = "<group>"; };
+		E80CE0AD18B3F0630088BA78 /* YMCAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMCAudioPlayer.m; path = ../../../../robotics/ROMO/RomotiveSDK/examples/HelloRMCharacter/HelloRMCharacter/YMCAudioPlayer.m; sourceTree = "<group>"; };
+		E80CE0B218B3F4570088BA78 /* P01_curious_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_curious_female.wav; sourceTree = "<group>"; };
+		E80CE0B318B3F4570088BA78 /* P01_curious_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_curious_male.wav; sourceTree = "<group>"; };
+		E80CE0B418B3F4570088BA78 /* P01_excited_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_excited_female.wav; sourceTree = "<group>"; };
+		E80CE0B518B3F4570088BA78 /* P01_excited_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_excited_male.wav; sourceTree = "<group>"; };
+		E80CE0B618B3F4570088BA78 /* P01_happy_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_happy_female.wav; sourceTree = "<group>"; };
+		E80CE0B718B3F4570088BA78 /* P01_happy_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_happy_male.wav; sourceTree = "<group>"; };
+		E80CE0B818B3F4570088BA78 /* P01_neutral_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_neutral_female.wav; sourceTree = "<group>"; };
+		E80CE0B918B3F4570088BA78 /* P01_neutral_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_neutral_male.wav; sourceTree = "<group>"; };
+		E80CE0BA18B3F4570088BA78 /* P01_sad_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_sad_female.wav; sourceTree = "<group>"; };
+		E80CE0BB18B3F4570088BA78 /* P01_sad_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_sad_male.wav; sourceTree = "<group>"; };
+		E80CE0BC18B3F4570088BA78 /* P01_scared_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_scared_female.wav; sourceTree = "<group>"; };
+		E80CE0BD18B3F4570088BA78 /* P01_scared_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_scared_male.wav; sourceTree = "<group>"; };
+		E80CE0BE18B3F4570088BA78 /* P01_sleepy_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_sleepy_female.wav; sourceTree = "<group>"; };
+		E80CE0BF18B3F4570088BA78 /* P01_sleepy_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P01_sleepy_male.wav; sourceTree = "<group>"; };
+		E80CE0C018B3F4570088BA78 /* P02_curious_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_curious_female.wav; sourceTree = "<group>"; };
+		E80CE0C118B3F4570088BA78 /* P02_curious_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_curious_male.wav; sourceTree = "<group>"; };
+		E80CE0C218B3F4570088BA78 /* P02_excited_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_excited_female.wav; sourceTree = "<group>"; };
+		E80CE0C318B3F4570088BA78 /* P02_excited_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_excited_male.wav; sourceTree = "<group>"; };
+		E80CE0C418B3F4570088BA78 /* P02_happy_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_happy_female.wav; sourceTree = "<group>"; };
+		E80CE0C518B3F4570088BA78 /* P02_happy_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_happy_male.wav; sourceTree = "<group>"; };
+		E80CE0C618B3F4570088BA78 /* P02_neutral_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_neutral_female.wav; sourceTree = "<group>"; };
+		E80CE0C718B3F4570088BA78 /* P02_neutral_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_neutral_male.wav; sourceTree = "<group>"; };
+		E80CE0C818B3F4570088BA78 /* P02_sad_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_sad_female.wav; sourceTree = "<group>"; };
+		E80CE0C918B3F4570088BA78 /* P02_sad_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_sad_male.wav; sourceTree = "<group>"; };
+		E80CE0CA18B3F4570088BA78 /* P02_scared_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_scared_female.wav; sourceTree = "<group>"; };
+		E80CE0CB18B3F4570088BA78 /* P02_scared_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_scared_male.wav; sourceTree = "<group>"; };
+		E80CE0CC18B3F4570088BA78 /* P02_sleepy_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_sleepy_female.wav; sourceTree = "<group>"; };
+		E80CE0CD18B3F4570088BA78 /* P02_sleepy_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P02_sleepy_male.wav; sourceTree = "<group>"; };
+		E80CE0CE18B3F4570088BA78 /* P03_curious_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_curious_female.wav; sourceTree = "<group>"; };
+		E80CE0CF18B3F4570088BA78 /* P03_curious_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_curious_male.wav; sourceTree = "<group>"; };
+		E80CE0D018B3F4570088BA78 /* P03_excited_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_excited_female.wav; sourceTree = "<group>"; };
+		E80CE0D118B3F4570088BA78 /* P03_excited_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_excited_male.wav; sourceTree = "<group>"; };
+		E80CE0D218B3F4570088BA78 /* P03_happy_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_happy_female.wav; sourceTree = "<group>"; };
+		E80CE0D318B3F4570088BA78 /* P03_happy_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_happy_male.wav; sourceTree = "<group>"; };
+		E80CE0D418B3F4570088BA78 /* P03_neutral_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_neutral_female.wav; sourceTree = "<group>"; };
+		E80CE0D518B3F4570088BA78 /* P03_neutral_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_neutral_male.wav; sourceTree = "<group>"; };
+		E80CE0D618B3F4570088BA78 /* P03_sad_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_sad_female.wav; sourceTree = "<group>"; };
+		E80CE0D718B3F4570088BA78 /* P03_sad_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_sad_male.wav; sourceTree = "<group>"; };
+		E80CE0D818B3F4570088BA78 /* P03_scared_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_scared_female.wav; sourceTree = "<group>"; };
+		E80CE0D918B3F4570088BA78 /* P03_scared_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_scared_male.wav; sourceTree = "<group>"; };
+		E80CE0DA18B3F4570088BA78 /* P03_sleepy_female.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_sleepy_female.wav; sourceTree = "<group>"; };
+		E80CE0DB18B3F4570088BA78 /* P03_sleepy_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P03_sleepy_male.wav; sourceTree = "<group>"; };
+		E846689418B96A5D000ECD04 /* ROMOExp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ROMOExp2-Info.plist"; sourceTree = "<group>"; };
+		E846689618B96A5D000ECD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E846689818B96A5D000ECD04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E846689A18B96A5D000ECD04 /* ROMOExp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROMOExp2-Prefix.pch"; sourceTree = "<group>"; };
+		E846689B18B96A5D000ECD04 /* RZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZAppDelegate.h; sourceTree = "<group>"; };
+		E846689C18B96A5D000ECD04 /* RZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZAppDelegate.m; sourceTree = "<group>"; };
+		E846689E18B96A5D000ECD04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E84668AC18B96A5D000ECD04 /* ROMOExp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ROMOExp2Tests-Info.plist"; sourceTree = "<group>"; };
+		E84668AE18B96A5D000ECD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E84668B018B96A5D000ECD04 /* ROMOExp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROMOExp2Tests.m; sourceTree = "<group>"; };
+		E84668BA18B96C44000ECD04 /* RMCharacter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RMCharacter.bundle; path = ../../../robotics/ROMO/RomotiveSDK/frameworks/RMCharacter.bundle; sourceTree = "<group>"; };
+		E84668C018B98522000ECD04 /* ROMOExp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROMOExp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84668C618B98523000ECD04 /* ROMOExp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ROMOExp2-Info.plist"; sourceTree = "<group>"; };
+		E84668C818B98523000ECD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E84668CA18B98523000ECD04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E84668CC18B98523000ECD04 /* ROMOExp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROMOExp2-Prefix.pch"; sourceTree = "<group>"; };
+		E84668CD18B98523000ECD04 /* RZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZAppDelegate.h; sourceTree = "<group>"; };
+		E84668CE18B98523000ECD04 /* RZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZAppDelegate.m; sourceTree = "<group>"; };
+		E84668D118B98523000ECD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E84668D318B98523000ECD04 /* RZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZViewController.h; sourceTree = "<group>"; };
+		E84668D418B98523000ECD04 /* RZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZViewController.m; sourceTree = "<group>"; };
+		E84668D618B98523000ECD04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E84668DC18B98523000ECD04 /* ROMOExp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROMOExp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84668E418B98523000ECD04 /* ROMOExp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ROMOExp2Tests-Info.plist"; sourceTree = "<group>"; };
+		E84668E618B98523000ECD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E84668E818B98523000ECD04 /* ROMOExp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROMOExp2Tests.m; sourceTree = "<group>"; };
+		E85103CC18B9643D00D2C764 /* ROMOexp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ROMOexp2-Info.plist"; sourceTree = "<group>"; };
+		E85103CE18B9643E00D2C764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E85103D018B9643E00D2C764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E85103D218B9643E00D2C764 /* ROMOexp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROMOexp2-Prefix.pch"; sourceTree = "<group>"; };
+		E85103D318B9643E00D2C764 /* RZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZAppDelegate.h; sourceTree = "<group>"; };
+		E85103D418B9643E00D2C764 /* RZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZAppDelegate.m; sourceTree = "<group>"; };
+		E85103D618B9643E00D2C764 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E85103E418B9643E00D2C764 /* ROMOexp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ROMOexp2Tests-Info.plist"; sourceTree = "<group>"; };
+		E85103E618B9643E00D2C764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E85103E818B9643E00D2C764 /* ROMOexp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROMOexp2Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E80CE06418B2F2710088BA78 /* Frameworks */ = {
+		E84668BD18B98522000ECD04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80CE06D18B2F2720088BA78 /* CoreGraphics.framework in Frameworks */,
-				E80CE06F18B2F2720088BA78 /* UIKit.framework in Frameworks */,
-				E80CE06B18B2F2710088BA78 /* Foundation.framework in Frameworks */,
+				E86287EE18B98791001D210B /* RMCharacter.framework in Frameworks */,
+				E86287ED18B98772001D210B /* AVFoundation.framework in Frameworks */,
+				E84668C218B98522000ECD04 /* CoreGraphics.framework in Frameworks */,
+				E84668C318B98522000ECD04 /* UIKit.framework in Frameworks */,
+				E84668C118B98522000ECD04 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E80CE07F18B2F2720088BA78 /* Frameworks */ = {
+		E84668D918B98523000ECD04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80CE08418B2F2720088BA78 /* XCTest.framework in Frameworks */,
-				E80CE08618B2F2720088BA78 /* UIKit.framework in Frameworks */,
-				E80CE08518B2F2720088BA78 /* Foundation.framework in Frameworks */,
+				E84668DD18B98523000ECD04 /* XCTest.framework in Frameworks */,
+				E84668DF18B98523000ECD04 /* UIKit.framework in Frameworks */,
+				E84668DE18B98523000ECD04 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +173,12 @@
 			children = (
 				E80CE07018B2F2720088BA78 /* ROMOExp2 */,
 				E80CE08918B2F2720088BA78 /* ROMOExp2Tests */,
+				E85103CA18B9643D00D2C764 /* ROMOexp2 */,
+				E85103E218B9643E00D2C764 /* ROMOexp2Tests */,
+				E846689218B96A5C000ECD04 /* ROMOExp2 */,
+				E84668AA18B96A5D000ECD04 /* ROMOExp2Tests */,
+				E84668C418B98522000ECD04 /* ROMOExp2 */,
+				E84668E218B98523000ECD04 /* ROMOExp2Tests */,
 				E80CE06918B2F2710088BA78 /* Frameworks */,
 				E80CE06818B2F2710088BA78 /* Products */,
 			);
@@ -87,8 +187,8 @@
 		E80CE06818B2F2710088BA78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E80CE06718B2F2710088BA78 /* ROMOExp2.app */,
-				E80CE08218B2F2720088BA78 /* ROMOExp2Tests.xctest */,
+				E84668C018B98522000ECD04 /* ROMOExp2.app */,
+				E84668DC18B98523000ECD04 /* ROMOExp2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +196,10 @@
 		E80CE06918B2F2710088BA78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E84668BA18B96C44000ECD04 /* RMCharacter.bundle */,
+				E80CE0A918B3EF590088BA78 /* QuartzCore.framework */,
+				E80CE0A718B3EF520088BA78 /* AVFoundation.framework */,
+				E80CE0A318B3EF2A0088BA78 /* RMCharacter.framework */,
 				E80CE06A18B2F2710088BA78 /* Foundation.framework */,
 				E80CE06C18B2F2720088BA78 /* CoreGraphics.framework */,
 				E80CE06E18B2F2720088BA78 /* UIKit.framework */,
@@ -107,6 +211,12 @@
 		E80CE07018B2F2720088BA78 /* ROMOExp2 */ = {
 			isa = PBXGroup;
 			children = (
+				E80CE0A118B3288D0088BA78 /* main.storyboard */,
+				E80CE0AB18B3F02C0088BA78 /* AudioPlayer */,
+				E80CE09E18B2F9440088BA78 /* RZROMOViewController.h */,
+				E80CE09F18B2F9440088BA78 /* RZROMOViewController.m */,
+				E80CE09B18B2F5550088BA78 /* RZMainViewController.h */,
+				E80CE09C18B2F5550088BA78 /* RZMainViewController.m */,
 				E80CE07918B2F2720088BA78 /* RZAppDelegate.h */,
 				E80CE07A18B2F2720088BA78 /* RZAppDelegate.m */,
 				E80CE07C18B2F2720088BA78 /* Images.xcassets */,
@@ -118,6 +228,7 @@
 		E80CE07118B2F2720088BA78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E80CE0B118B3F4570088BA78 /* scripts */,
 				E80CE07218B2F2720088BA78 /* ROMOExp2-Info.plist */,
 				E80CE07318B2F2720088BA78 /* InfoPlist.strings */,
 				E80CE07618B2F2720088BA78 /* main.m */,
@@ -144,16 +255,197 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E80CE0AB18B3F02C0088BA78 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E80CE0AC18B3F0630088BA78 /* YMCAudioPlayer.h */,
+				E80CE0AD18B3F0630088BA78 /* YMCAudioPlayer.m */,
+			);
+			name = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		E80CE0B118B3F4570088BA78 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				E80CE0B218B3F4570088BA78 /* P01_curious_female.wav */,
+				E80CE0B318B3F4570088BA78 /* P01_curious_male.wav */,
+				E80CE0B418B3F4570088BA78 /* P01_excited_female.wav */,
+				E80CE0B518B3F4570088BA78 /* P01_excited_male.wav */,
+				E80CE0B618B3F4570088BA78 /* P01_happy_female.wav */,
+				E80CE0B718B3F4570088BA78 /* P01_happy_male.wav */,
+				E80CE0B818B3F4570088BA78 /* P01_neutral_female.wav */,
+				E80CE0B918B3F4570088BA78 /* P01_neutral_male.wav */,
+				E80CE0BA18B3F4570088BA78 /* P01_sad_female.wav */,
+				E80CE0BB18B3F4570088BA78 /* P01_sad_male.wav */,
+				E80CE0BC18B3F4570088BA78 /* P01_scared_female.wav */,
+				E80CE0BD18B3F4570088BA78 /* P01_scared_male.wav */,
+				E80CE0BE18B3F4570088BA78 /* P01_sleepy_female.wav */,
+				E80CE0BF18B3F4570088BA78 /* P01_sleepy_male.wav */,
+				E80CE0C018B3F4570088BA78 /* P02_curious_female.wav */,
+				E80CE0C118B3F4570088BA78 /* P02_curious_male.wav */,
+				E80CE0C218B3F4570088BA78 /* P02_excited_female.wav */,
+				E80CE0C318B3F4570088BA78 /* P02_excited_male.wav */,
+				E80CE0C418B3F4570088BA78 /* P02_happy_female.wav */,
+				E80CE0C518B3F4570088BA78 /* P02_happy_male.wav */,
+				E80CE0C618B3F4570088BA78 /* P02_neutral_female.wav */,
+				E80CE0C718B3F4570088BA78 /* P02_neutral_male.wav */,
+				E80CE0C818B3F4570088BA78 /* P02_sad_female.wav */,
+				E80CE0C918B3F4570088BA78 /* P02_sad_male.wav */,
+				E80CE0CA18B3F4570088BA78 /* P02_scared_female.wav */,
+				E80CE0CB18B3F4570088BA78 /* P02_scared_male.wav */,
+				E80CE0CC18B3F4570088BA78 /* P02_sleepy_female.wav */,
+				E80CE0CD18B3F4570088BA78 /* P02_sleepy_male.wav */,
+				E80CE0CE18B3F4570088BA78 /* P03_curious_female.wav */,
+				E80CE0CF18B3F4570088BA78 /* P03_curious_male.wav */,
+				E80CE0D018B3F4570088BA78 /* P03_excited_female.wav */,
+				E80CE0D118B3F4570088BA78 /* P03_excited_male.wav */,
+				E80CE0D218B3F4570088BA78 /* P03_happy_female.wav */,
+				E80CE0D318B3F4570088BA78 /* P03_happy_male.wav */,
+				E80CE0D418B3F4570088BA78 /* P03_neutral_female.wav */,
+				E80CE0D518B3F4570088BA78 /* P03_neutral_male.wav */,
+				E80CE0D618B3F4570088BA78 /* P03_sad_female.wav */,
+				E80CE0D718B3F4570088BA78 /* P03_sad_male.wav */,
+				E80CE0D818B3F4570088BA78 /* P03_scared_female.wav */,
+				E80CE0D918B3F4570088BA78 /* P03_scared_male.wav */,
+				E80CE0DA18B3F4570088BA78 /* P03_sleepy_female.wav */,
+				E80CE0DB18B3F4570088BA78 /* P03_sleepy_male.wav */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		E846689218B96A5C000ECD04 /* ROMOExp2 */ = {
+			isa = PBXGroup;
+			children = (
+				E846689B18B96A5D000ECD04 /* RZAppDelegate.h */,
+				E846689C18B96A5D000ECD04 /* RZAppDelegate.m */,
+				E846689E18B96A5D000ECD04 /* Images.xcassets */,
+				E846689318B96A5D000ECD04 /* Supporting Files */,
+			);
+			path = ROMOExp2;
+			sourceTree = "<group>";
+		};
+		E846689318B96A5D000ECD04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E846689418B96A5D000ECD04 /* ROMOExp2-Info.plist */,
+				E846689518B96A5D000ECD04 /* InfoPlist.strings */,
+				E846689818B96A5D000ECD04 /* main.m */,
+				E846689A18B96A5D000ECD04 /* ROMOExp2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E84668AA18B96A5D000ECD04 /* ROMOExp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E84668B018B96A5D000ECD04 /* ROMOExp2Tests.m */,
+				E84668AB18B96A5D000ECD04 /* Supporting Files */,
+			);
+			path = ROMOExp2Tests;
+			sourceTree = "<group>";
+		};
+		E84668AB18B96A5D000ECD04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84668AC18B96A5D000ECD04 /* ROMOExp2Tests-Info.plist */,
+				E84668AD18B96A5D000ECD04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E84668C418B98522000ECD04 /* ROMOExp2 */ = {
+			isa = PBXGroup;
+			children = (
+				E84668CD18B98523000ECD04 /* RZAppDelegate.h */,
+				E84668CE18B98523000ECD04 /* RZAppDelegate.m */,
+				E84668D018B98523000ECD04 /* Main.storyboard */,
+				E84668D318B98523000ECD04 /* RZViewController.h */,
+				E84668D418B98523000ECD04 /* RZViewController.m */,
+				E84668D618B98523000ECD04 /* Images.xcassets */,
+				E84668C518B98523000ECD04 /* Supporting Files */,
+			);
+			path = ROMOExp2;
+			sourceTree = "<group>";
+		};
+		E84668C518B98523000ECD04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84668C618B98523000ECD04 /* ROMOExp2-Info.plist */,
+				E84668C718B98523000ECD04 /* InfoPlist.strings */,
+				E84668CA18B98523000ECD04 /* main.m */,
+				E84668CC18B98523000ECD04 /* ROMOExp2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E84668E218B98523000ECD04 /* ROMOExp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E84668E818B98523000ECD04 /* ROMOExp2Tests.m */,
+				E84668E318B98523000ECD04 /* Supporting Files */,
+			);
+			path = ROMOExp2Tests;
+			sourceTree = "<group>";
+		};
+		E84668E318B98523000ECD04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84668E418B98523000ECD04 /* ROMOExp2Tests-Info.plist */,
+				E84668E518B98523000ECD04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E85103CA18B9643D00D2C764 /* ROMOexp2 */ = {
+			isa = PBXGroup;
+			children = (
+				E85103D318B9643E00D2C764 /* RZAppDelegate.h */,
+				E85103D418B9643E00D2C764 /* RZAppDelegate.m */,
+				E85103D618B9643E00D2C764 /* Images.xcassets */,
+				E85103CB18B9643D00D2C764 /* Supporting Files */,
+			);
+			path = ROMOexp2;
+			sourceTree = "<group>";
+		};
+		E85103CB18B9643D00D2C764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85103CC18B9643D00D2C764 /* ROMOexp2-Info.plist */,
+				E85103CD18B9643E00D2C764 /* InfoPlist.strings */,
+				E85103D018B9643E00D2C764 /* main.m */,
+				E85103D218B9643E00D2C764 /* ROMOexp2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E85103E218B9643E00D2C764 /* ROMOexp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E85103E818B9643E00D2C764 /* ROMOexp2Tests.m */,
+				E85103E318B9643E00D2C764 /* Supporting Files */,
+			);
+			path = ROMOexp2Tests;
+			sourceTree = "<group>";
+		};
+		E85103E318B9643E00D2C764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85103E418B9643E00D2C764 /* ROMOexp2Tests-Info.plist */,
+				E85103E518B9643E00D2C764 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E80CE06618B2F2710088BA78 /* ROMOExp2 */ = {
+		E84668BF18B98522000ECD04 /* ROMOExp2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E80CE09318B2F2720088BA78 /* Build configuration list for PBXNativeTarget "ROMOExp2" */;
+			buildConfigurationList = E84668EA18B98523000ECD04 /* Build configuration list for PBXNativeTarget "ROMOExp2" */;
 			buildPhases = (
-				E80CE06318B2F2710088BA78 /* Sources */,
-				E80CE06418B2F2710088BA78 /* Frameworks */,
-				E80CE06518B2F2710088BA78 /* Resources */,
+				E84668BC18B98522000ECD04 /* Sources */,
+				E84668BD18B98522000ECD04 /* Frameworks */,
+				E84668BE18B98522000ECD04 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -161,25 +453,25 @@
 			);
 			name = ROMOExp2;
 			productName = ROMOExp2;
-			productReference = E80CE06718B2F2710088BA78 /* ROMOExp2.app */;
+			productReference = E84668C018B98522000ECD04 /* ROMOExp2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E80CE08118B2F2720088BA78 /* ROMOExp2Tests */ = {
+		E84668DB18B98523000ECD04 /* ROMOExp2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E80CE09618B2F2720088BA78 /* Build configuration list for PBXNativeTarget "ROMOExp2Tests" */;
+			buildConfigurationList = E84668ED18B98523000ECD04 /* Build configuration list for PBXNativeTarget "ROMOExp2Tests" */;
 			buildPhases = (
-				E80CE07E18B2F2720088BA78 /* Sources */,
-				E80CE07F18B2F2720088BA78 /* Frameworks */,
-				E80CE08018B2F2720088BA78 /* Resources */,
+				E84668D818B98523000ECD04 /* Sources */,
+				E84668D918B98523000ECD04 /* Frameworks */,
+				E84668DA18B98523000ECD04 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E80CE08818B2F2720088BA78 /* PBXTargetDependency */,
+				E84668E118B98523000ECD04 /* PBXTargetDependency */,
 			);
 			name = ROMOExp2Tests;
 			productName = ROMOExp2Tests;
-			productReference = E80CE08218B2F2720088BA78 /* ROMOExp2Tests.xctest */;
+			productReference = E84668DC18B98523000ECD04 /* ROMOExp2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -192,8 +484,8 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ruimin Zhang";
 				TargetAttributes = {
-					E80CE08118B2F2720088BA78 = {
-						TestTargetID = E80CE06618B2F2710088BA78;
+					E84668DB18B98523000ECD04 = {
+						TestTargetID = E84668BF18B98522000ECD04;
 					};
 				};
 			};
@@ -203,63 +495,68 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E80CE05E18B2F2710088BA78;
 			productRefGroup = E80CE06818B2F2710088BA78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E80CE06618B2F2710088BA78 /* ROMOExp2 */,
-				E80CE08118B2F2720088BA78 /* ROMOExp2Tests */,
+				E84668BF18B98522000ECD04 /* ROMOExp2 */,
+				E84668DB18B98523000ECD04 /* ROMOExp2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E80CE06518B2F2710088BA78 /* Resources */ = {
+		E84668BE18B98522000ECD04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80CE07518B2F2720088BA78 /* InfoPlist.strings in Resources */,
-				E80CE07D18B2F2720088BA78 /* Images.xcassets in Resources */,
+				E82B816018C281E60022772B /* ROMOExp2-Info.plist in Resources */,
+				E84668D718B98523000ECD04 /* Images.xcassets in Resources */,
+				E84668C918B98523000ECD04 /* InfoPlist.strings in Resources */,
+				E84668D218B98523000ECD04 /* Main.storyboard in Resources */,
+				E82B815F18C280E10022772B /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E80CE08018B2F2720088BA78 /* Resources */ = {
+		E84668DA18B98523000ECD04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80CE08E18B2F2720088BA78 /* InfoPlist.strings in Resources */,
+				E84668E718B98523000ECD04 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E80CE06318B2F2710088BA78 /* Sources */ = {
+		E84668BC18B98522000ECD04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80CE07B18B2F2720088BA78 /* RZAppDelegate.m in Sources */,
-				E80CE07718B2F2720088BA78 /* main.m in Sources */,
+				E84668CF18B98523000ECD04 /* RZAppDelegate.m in Sources */,
+				E84668D518B98523000ECD04 /* RZViewController.m in Sources */,
+				E84668CB18B98523000ECD04 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E80CE07E18B2F2720088BA78 /* Sources */ = {
+		E84668D818B98523000ECD04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80CE09018B2F2720088BA78 /* ROMOExp2Tests.m in Sources */,
+				E84668E918B98523000ECD04 /* ROMOExp2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E80CE08818B2F2720088BA78 /* PBXTargetDependency */ = {
+		E84668E118B98523000ECD04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E80CE06618B2F2710088BA78 /* ROMOExp2 */;
-			targetProxy = E80CE08718B2F2720088BA78 /* PBXContainerItemProxy */;
+			target = E84668BF18B98522000ECD04 /* ROMOExp2 */;
+			targetProxy = E84668E018B98523000ECD04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -276,6 +573,62 @@
 			isa = PBXVariantGroup;
 			children = (
 				E80CE08D18B2F2720088BA78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E846689518B96A5D000ECD04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E846689618B96A5D000ECD04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E84668AD18B96A5D000ECD04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84668AE18B96A5D000ECD04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E84668C718B98523000ECD04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84668C818B98523000ECD04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E84668D018B98523000ECD04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84668D118B98523000ECD04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E84668E518B98523000ECD04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84668E618B98523000ECD04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E85103CD18B9643E00D2C764 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85103CE18B9643E00D2C764 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E85103E518B9643E00D2C764 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85103E618B9643E00D2C764 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -355,24 +708,38 @@
 			};
 			name = Release;
 		};
-		E80CE09418B2F2720088BA78 /* Debug */ = {
+		E84668EB18B98523000ECD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ruiminzhang/Documents/Study/VR-research/robotics/ROMO/RomotiveSDK/frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ROMOExp2/ROMOExp2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "ROMOExp2/ROMOExp2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		E80CE09518B2F2720088BA78 /* Release */ = {
+		E84668EC18B98523000ECD04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ruiminzhang/Documents/Study/VR-research/robotics/ROMO/RomotiveSDK/frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ROMOExp2/ROMOExp2-Prefix.pch";
 				INFOPLIST_FILE = "ROMOExp2/ROMOExp2-Info.plist";
@@ -381,7 +748,7 @@
 			};
 			name = Release;
 		};
-		E80CE09718B2F2720088BA78 /* Debug */ = {
+		E84668EE18B98523000ECD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -404,7 +771,7 @@
 			};
 			name = Debug;
 		};
-		E80CE09818B2F2720088BA78 /* Release */ = {
+		E84668EF18B98523000ECD04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -435,21 +802,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E80CE09318B2F2720088BA78 /* Build configuration list for PBXNativeTarget "ROMOExp2" */ = {
+		E84668EA18B98523000ECD04 /* Build configuration list for PBXNativeTarget "ROMOExp2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E80CE09418B2F2720088BA78 /* Debug */,
-				E80CE09518B2F2720088BA78 /* Release */,
+				E84668EB18B98523000ECD04 /* Debug */,
+				E84668EC18B98523000ECD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E80CE09618B2F2720088BA78 /* Build configuration list for PBXNativeTarget "ROMOExp2Tests" */ = {
+		E84668ED18B98523000ECD04 /* Build configuration list for PBXNativeTarget "ROMOExp2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E80CE09718B2F2720088BA78 /* Debug */,
-				E80CE09818B2F2720088BA78 /* Release */,
+				E84668EE18B98523000ECD04 /* Debug */,
+				E84668EF18B98523000ECD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
