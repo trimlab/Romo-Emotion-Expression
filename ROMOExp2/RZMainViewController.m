@@ -50,7 +50,7 @@
 
 - (void) prepareForSegue: (UIStoryboardSegue *)segue sender:(id)sender{
     if ([segue.identifier isEqualToString:@"segue1"]){
-        self.expID = arc4random() % 36;
+        self.expID = arc4random() % 36; // This sets the number for the ID label that was instantiated earlier.
         
         RZROMOViewController *ROMOview = (RZROMOViewController *) segue.destinationViewController; 
         [ROMOview.ID setTitle:[NSString stringWithFormat:@"ID: %i", self.expID] forState:UIControlStateNormal];
@@ -59,7 +59,7 @@
         
         int type = self.expID % 3;
         int gender = self.expID % 2;
-        int emotion = self.expID % 6 + 1;
+        int emotion = self.expID % 6;
         
         ROMOview.emotion = emotion;
         

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RZROMOViewController.h" // to import the header of a customerized class use double quotes 
+#import "RZROMOViewController.h" // to import the header of a customized class use double quotes 
 
 @interface RZMainViewController : UIViewController
 
